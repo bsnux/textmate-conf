@@ -1,9 +1,10 @@
 # Settings
-fontName = "Fira Mono for Powerline"
-fontSize = 13.5
+#fontName = "Fira Code""
+fontName = "Hack""
+fontSize = 16
 
 # Variables
-PATH = "/usr/local/bin:$PATH:/opt/local/bin:/usr/texbin"
+PATH = "/usr/local/bin:/usr/local/opt/ruby/bin:/opt/local/bin:/usr/local/lib/ruby/gems/2.6.0/bin:$PATH:/usr/texbin"
 TM_GIT = /"usr/local/bin/git"
 TM_PYTHON = "/usr/local/bin/python3"
 
@@ -19,6 +20,8 @@ tabSize = 4
 
 [ *Dockerfile* ]
 fileType = "source.dockerfile"
+softTabs = true
+tabSize = 4
 
 [ *.yaml ]
 softTabs = true
